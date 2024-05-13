@@ -21,4 +21,18 @@ export const GlobalStyle = createGlobalStyle`
   body, input, textarea, button {
     font: 400 1rem Roboto, sans-serif;
   }
+
+  body::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: ${(props) => props.theme["gray-800"]};
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: ${(props) => props.theme["green-500"]};
+    border-radius: 20px;
+    border: 2px solid ${(props) => props.theme["gray-800"]};
+  }
 `;
