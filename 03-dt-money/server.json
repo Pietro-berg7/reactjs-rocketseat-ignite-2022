@@ -39,6 +39,14 @@
       "price": 4,
       "createdAt": "2024-05-20T19:37:38.497Z",
       "id": 5
+    },
+    {
+      "description": "PC Gamer",
+      "category": "Lazer",
+      "type": "outcome",
+      "price": 7000,
+      "createdAt": "2024-05-25T03:06:02.331Z",
+      "id": 6
     }
   ]
 }
